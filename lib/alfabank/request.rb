@@ -2,7 +2,7 @@ require 'httparty'
 
 module Alfabank
   class Request
-    BASE_URL = 'https://engine.paymentgate.ru/payment/rest/'
+    BASE_URL = 'https://pay.alfabank.ru/payment/rest/'
     TEST_BASE_URL = 'https://web.rbsuat.com/ab/rest/'
 
     def initialize(method, params)
